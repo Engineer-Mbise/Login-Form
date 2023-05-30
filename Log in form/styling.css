@@ -1,0 +1,54 @@
+a[href*="Google"]{
+    display: block; 
+    position: absolute;
+     top: 226px;
+      left: 60px;
+      text-decoration: none;
+      
+    
+
+}
+button{
+    background-color: green;
+
+}
+button:hover{
+    background-color: greenyellow;
+
+}
+button:active{
+    background-color: brown;
+}
+button:hover{
+cursor: grab;
+}
+a:hover{
+   cursor: grabbing;
+   background-color: forestgreen;
+    
+}
+img[src^="Google"]{
+    position: absolute; 
+    top: 225px; 
+    left: 22px;
+}
+a[href*="Facebook"]{
+    display: block; 
+    position: absolute;
+     top: 260px;
+      left: 60px;
+      text-decoration: none;
+
+}
+img[src*="Facebook"]{
+
+    position: absolute; 
+    top: 259px; 
+    left: 22px;
+}
+form{
+    background: linear-gradient(to left top, rgba(230,240,230,0.9)50%,rgba(210,207,205,0.3)50%);
+}
+
+
+
